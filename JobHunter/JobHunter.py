@@ -11,9 +11,9 @@ import time
 # Connect to database
 # You may need to edit the connect function based on your local settings.
 def connect_to_sql():
-    conn = mysql.connector.connect(user='root', password='',
-                                  host='127.0.0.1',
-                                  database='cna330')
+    conn = mysql.connector.connect(user='admin', password='CDwlsXsRRM3Xxk1F',
+                                   host='127.0.0.1', port=3309,
+                                   database='cna330')
     return conn
 
 # Create the table structure
